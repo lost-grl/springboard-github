@@ -1,0 +1,14 @@
+1. ES5 Global Constants
+
+    const PI = 3.14;
+
+2. ES2015
+
+    let PI = 3.14;
+    PI = 42;
+
+3. Quiz
+    i. var can be redeclared and is function-scoped, while let cannot be redeclared and is block-scoped.
+    ii. const cannot be reassigned or redeclared and is block-scoped.
+    iii. let variables can be changed by reassigning them, const variables can only be changed by mutating them. 
+    iv. hoisting is a characteristic of var variables where the declaration is run before all the rest of the code. 
